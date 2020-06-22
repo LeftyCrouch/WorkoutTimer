@@ -1,4 +1,4 @@
-package models;
+package com.crouch.workouttimer.models;
 
 import android.util.Log;
 
@@ -7,8 +7,6 @@ import androidx.lifecycle.ViewModel;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class MainViewModel extends ViewModel {
     private static final String TAG = "MainViewModel";
